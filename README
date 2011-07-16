@@ -1,0 +1,5 @@
+Simple battery monitor to prevent loss of work. Nice quick execution, so I personally use cron to check the state of the battery every minute (also my current battery is terribad).
+
+Suspends to RAM at <=3% battery.
+
+Requires acpi, pm-utils
